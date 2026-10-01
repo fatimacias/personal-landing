@@ -3,9 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fatima Macias — Senior Full Stack Developer</title>
-<meta name="description" content="Fatima Macias — Senior Full Stack Developer con 10+ años de experiencia en .NET, Azure y Generative AI.">
-<link rel="icon" href="data:,">
+<title>Fátima Macías — Senior Full Stack Developer</title>
+<meta name="description" content="Fátima Macías — Senior Full Stack Developer con 10+ años de experiencia en .NET, Azure y Generative AI.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Fátima Macías">
+<link rel="canonical" href="https://fatimacias.com/es/">
+<link rel="alternate" hreflang="en" href="https://fatimacias.com/">
+<link rel="alternate" hreflang="es" href="https://fatimacias.com/es/">
+<link rel="alternate" hreflang="x-default" href="https://fatimacias.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Fátima Macías">
+<meta property="og:title" content="Fátima Macías — Senior Full Stack Developer">
+<meta property="og:description" content="10+ años arquitectando software de nivel empresarial en finanzas, logística y SaaS. Expandiendo hacia Generative AI y AI Agents.">
+<meta property="og:url" content="https://fatimacias.com/es/">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:image" content="https://fatimacias.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Fátima Macías — Senior Full Stack Developer">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fátima Macías — Senior Full Stack Developer">
+<meta name="twitter:description" content="10+ años arquitectando software de nivel empresarial en finanzas, logística y SaaS. Expandiendo hacia Generative AI y AI Agents.">
+<meta name="twitter:image" content="https://fatimacias.com/assets/og-image.png">
+
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
 <script>
   (function () {
     var saved = localStorage.getItem("theme");
@@ -13,24 +39,44 @@
     document.documentElement.setAttribute("data-theme", theme);
   })();
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Fátima Macías",
+  "jobTitle": "Senior Full Stack Developer",
+  "url": "https://fatimacias.com/es/",
+  "image": "https://fatimacias.com/assets/og-image.png",
+  "sameAs": [
+    "https://www.linkedin.com/in/fatima-macias/"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Atlanta",
+    "addressRegion": "GA",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [".NET", "C#", "Azure", "Generative AI", "AI Agents", "FastAPI", "Python"]
+}
+</script>
 </head>
 <body>
 <header class="navbar">
   <div class="container nav-inner">
-    <a href="#hero" class="logo">FM</a>
+    <a href="#hero" class="logo">
+      <span class="logo-badge">FM</span>
+      <span class="logo-name">Fátima Macías</span>
+    </a>
     <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <nav class="nav-links" id="navLinks">
-      <a href="#about">Sobre mí</a>
-      <a href="#skills">Habilidades</a>
-      <a href="#experience">Experiencia</a>
-      <a href="#education">Educación</a>
-      <a href="#contact">Contacto</a>
+      <a href="#about" style="--ext-color:#569cd6">sobre-mi.tsx</a>
+      <a href="#skills" style="--ext-color:#4ec9b0">habilidades.json</a>
+      <a href="#experience" style="--ext-color:#ce9178">experiencia.md</a>
+      <a href="#education" style="--ext-color:#dcdcaa">educacion.md</a>
+      <a href="#contact" style="--ext-color:#c586c0">contacto.ts</a>
       <span class="lang-switch">
         <a href="/">EN</a>
         <a href="/es/" class="active">ES</a>
@@ -43,14 +89,16 @@
   </div>
 </header>
 
+
 <main>
   <section id="hero" class="hero">
     <div class="hero-blob one"></div>
     <div class="hero-blob two"></div>
+    <div class="hero-blob three"></div>
     <div class="container hero-inner">
       <div class="hero-copy">
         <p class="eyebrow">Senior Full Stack Developer</p>
-        <h1>Fatima <span class="gradient-text">Macias</span></h1>
+        <h1>Fátima <span class="gradient-text">Macías</span></h1>
         <p class="hero-tagline">
           10+ años arquitectando software de nivel empresarial en finanzas, logística y SaaS.
           Experta en el stack de Microsoft (.NET Core, C#, Azure), hoy expandiendo hacia
@@ -76,12 +124,11 @@
             <span class="code-panel-title">perfil.json</span>
           </div>
           <div class="code-panel-body"><span class="c-punc">{</span>
-  <span class="c-key">"nombre"</span><span class="c-punc">:</span> <span class="c-str">"Fatima Macias"</span><span class="c-punc">,</span>
+  <span class="c-key">"nombre"</span><span class="c-punc">:</span> <span class="c-str">"Fátima Macías"</span><span class="c-punc">,</span>
   <span class="c-key">"rol"</span><span class="c-punc">:</span> <span class="c-str">"Senior Full Stack Developer"</span><span class="c-punc">,</span>
   <span class="c-key">"stack"</span><span class="c-punc">:</span> <span class="c-punc">[</span><span class="c-str">".NET"</span><span class="c-punc">,</span> <span class="c-str">"C#"</span><span class="c-punc">,</span> <span class="c-str">"Azure"</span><span class="c-punc">,</span> <span class="c-str">"AI"</span><span class="c-punc">]</span><span class="c-punc">,</span>
   <span class="c-key">"experiencia"</span><span class="c-punc">:</span> <span class="c-str">"10+ años"</span><span class="c-punc">,</span>
-  <span class="c-key">"enfoqueActual"</span><span class="c-punc">:</span> <span class="c-str">"Generative AI & Agents"</span><span class="c-punc">,</span>
-  <span class="c-key">"estado"</span><span class="c-punc">:</span> <span class="c-str">"abierta a oportunidades"</span>
+  <span class="c-key">"enfoqueActual"</span><span class="c-punc">:</span> <span class="c-str">"Generative AI & Agents"</span>
 <span class="c-punc">}</span></div>
         </div>
       </div>
@@ -113,11 +160,11 @@
       </div>
       <div class="skills-grid">
         <div class="skill-card" data-animate><div class="skill-icon">&lt;/&gt;</div><h3>Lenguajes</h3><p>C#, Python, JavaScript, SQL, Visual Basic</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">AI</div><h3>AI &amp; ML</h3><p>Generative AI, AI Agents, Prompt Engineering, Gemini API, GitHub Copilot, Claude</p></div>
         <div class="skill-card" data-animate><div class="skill-icon">☁</div><h3>Back-End &amp; Cloud</h3><p>.NET Core 8, ASP.NET MVC, FastAPI, REST APIs, Microservices, Azure (DevOps, Functions, AZ-104), Docker, CI/CD</p></div>
         <div class="skill-card" data-animate><div class="skill-icon">DB</div><h3>Bases de datos</h3><p>SQL Server, PostgreSQL, Entity Framework, LINQ, Dapper, Query Optimization</p></div>
-        <div class="skill-card" data-animate><div class="skill-icon">#</div><h3>Frameworks</h3><p>ABP Framework, ASP.NET MVC, FastAPI</p></div>
         <div class="skill-card" data-animate><div class="skill-icon">UI</div><h3>Front-End</h3><p>React, HTML5, CSS3</p></div>
-        <div class="skill-card" data-animate><div class="skill-icon">AI</div><h3>AI &amp; ML</h3><p>Generative AI, AI Agents, Prompt Engineering, Gemini API, GitHub Copilot, Claude</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">⚙</div><h3>Herramientas</h3><p>Git, GitHub, Azure DevOps Boards, Postman, Jira, VS Code</p></div>
         <div class="skill-card" data-animate><div class="skill-icon">✓</div><h3>Prácticas</h3><p>Agile/Scrum, TDD (xUnit), Clean Architecture, DDD, OOP, ETL</p></div>
       </div>
     </div>
@@ -131,12 +178,32 @@
       </div>
       <div class="timeline">
 
-        <article class="timeline-item" data-animate>
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
+          <div class="timeline-header">
+            <h3>AI Trainer — Contratista</h3>
+            <span class="timeline-meta">Mercor &amp; LinkedIn · 2025 – Presente</span>
+          </div>
+          <p class="timeline-summary">Evaluando y refinando resultados de modelos de IA en calidad, seguridad y alineación como contratista independiente.</p>
+          <div class="timeline-tags">
+            <span class="tag">#IA</span><span class="tag">#RLHF</span><span class="tag">#EvaluaciónDeModelos</span>
+          </div>
+          <ul class="timeline-detail" hidden>
+            <li>Evalúo respuestas generadas por IA en calidad, precisión, seguridad y alineación en distintos dominios de tareas.</li>
+            <li>Proporciono retroalimentación estructurada y calificaciones usadas para ajustar y mejorar modelos de lenguaje grandes (LLM).</li>
+            <li>Opero bajo acuerdos estrictos de confidencialidad; los clientes, proyectos y entregables específicos son propiedad de terceros y no se divulgan públicamente.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
           <div class="timeline-header">
             <h3>Senior Software Developer</h3>
             <span class="timeline-meta">Bombyll — USA · Mar 2024 – Presente</span>
           </div>
-          <ul>
+          <p class="timeline-summary">Arquitectura de sistemas de IA multi-proveedor y aceleración del desarrollo con herramientas asistidas por IA.</p>
+          <div class="timeline-tags">
+            <span class="tag">#IA</span><span class="tag">#LLM</span><span class="tag">#Python</span><span class="tag">#FastAPI</span>
+          </div>
+          <ul class="timeline-detail" hidden>
             <li>Arquitecté un sistema de decisión AI configurable con soporte para múltiples proveedores de LLM (Claude, OpenAI, Gemini) con gestión de costos integrada, habilitando cambio dinámico de proveedor según los requisitos de la tarea.</li>
             <li>Diseñé e implementé pipelines de AI agnósticos al proveedor, abstrayendo la lógica específica del modelo para garantizar flexibilidad y eficiencia de costos en flujos de trabajo de AI en producción.</li>
             <li>Adopté desarrollo guiado por especificaciones, escribiendo specs detalladas de implementación y usando TDD para traducir planes asistidos por AI en código confiable y bien probado.</li>
@@ -145,12 +212,16 @@
           </ul>
         </article>
 
-        <article class="timeline-item" data-animate>
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
           <div class="timeline-header">
             <h3>Senior Full Stack Developer</h3>
             <span class="timeline-meta">Oncedev / Willdom · Sep 2021 – Dic 2023</span>
           </div>
-          <ul>
+          <p class="timeline-summary">Lideré plataformas de seguros con DDD, reduciendo tiempos de respuesta 55% y logrando 98% de cobertura de pruebas.</p>
+          <div class="timeline-tags">
+            <span class="tag">#DDD</span><span class="tag">#ABPFramework</span><span class="tag">#SQLServer</span><span class="tag">#CI/CD</span>
+          </div>
+          <ul class="timeline-detail" hidden>
             <li>Arquitecté plataformas de autoservicio para comparación de seguros (auto, salud, vida) usando Domain-Driven Design (DDD) sobre ABP Framework, modelando dominios complejos de brokers y pólizas en bounded contexts limpios con capas de seguridad y auditoría integradas.</li>
             <li>Aproveché los módulos integrados de ABP Framework para autorización, multi-tenancy y logging, reduciendo preocupaciones transversales y acelerando la entrega de funcionalidades core del negocio.</li>
             <li>Integré 3 pasarelas de pago en plataformas de seguros, expandiendo las opciones de pago del cliente y aumentando la flexibilidad de procesamiento en un 40%.</li>
@@ -159,40 +230,52 @@
           </ul>
         </article>
 
-        <article class="timeline-item" data-animate>
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
           <div class="timeline-header">
             <h3>Senior Software Engineer</h3>
             <span class="timeline-meta">Kyklos · Jul 2017 – Nov 2023</span>
           </div>
-          <ul>
+          <p class="timeline-summary">Automaticé operaciones financieras y pipelines ETL, aumentando la productividad en un 25%.</p>
+          <div class="timeline-tags">
+            <span class="tag">#ETL</span><span class="tag">#SQLServer</span><span class="tag">#ASP.NETMVC</span>
+          </div>
+          <ul class="timeline-detail" hidden>
             <li>Diseñé un sistema centralizado de gestión de pagos integrando 7 instituciones financieras, automatizando el 100% de los pagos manuales a proveedores e incrementando la productividad del departamento en un 25%.</li>
             <li>Construí un pipeline ETL integrado con el ERP JD Edwards, automatizando la extracción de datos financieros de extremo a extremo y reduciendo la carga de trabajo del equipo de finanzas en un 25%.</li>
-            <li>Moderniceé y modularicé bases de código legacy, reduciendo costos operativos en un 25% y mejorando la escalabilidad del sistema.</li>
+            <li>Modernicé y modularicé bases de código legacy, reduciendo costos operativos en un 25% y mejorando la escalabilidad del sistema.</li>
             <li>Diseñé soluciones en SQL Server incluyendo diseño de esquemas, stored procedures y optimización de consultas para cargas de datos de alto volumen.</li>
             <li>Desarrollé un módulo de facturación electrónica usando ASP.NET MVC y SQL Server, garantizando pleno cumplimiento regulatorio.</li>
           </ul>
         </article>
 
-        <article class="timeline-item" data-animate>
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
           <div class="timeline-header">
             <h3>Senior Software Developer</h3>
             <span class="timeline-meta">Wo Logistic · Feb 2015 – Jun 2017</span>
           </div>
-          <ul>
+          <p class="timeline-summary">Construí sistemas de operaciones portuarias y facturación integrando hardware de pesaje.</p>
+          <div class="timeline-tags">
+            <span class="tag">#ASP.NETMVC</span><span class="tag">#SQLServer</span><span class="tag">#Hardware</span>
+          </div>
+          <ul class="timeline-detail" hidden>
             <li>Diseñé un sistema de operaciones portuarias integrando básculas de camiones/hardware de pesaje con software de facturación, calculando automáticamente tarifas de almacenamiento, inspección y puerto para carga a granel y por peso.</li>
             <li>Desarrollé sistemas de facturación electrónica y gestión de turnos, mejorando la trazabilidad operativa y el cumplimiento en los flujos de trabajo portuarios.</li>
             <li>Colaboré con equipos de operaciones portuarias y analistas para traducir requisitos de dominio complejos en soluciones de software listas para producción.</li>
           </ul>
         </article>
 
-        <article class="timeline-item" data-animate>
+        <article class="timeline-item" data-animate tabindex="0" role="button" aria-haspopup="dialog">
           <div class="timeline-header">
             <h3>Software Engineer</h3>
             <span class="timeline-meta">Escopusa · Nov 2011 – Ene 2015</span>
           </div>
-          <ul>
+          <p class="timeline-summary">Automaticé reportes financieros y modernicé sistemas legacy de VB6 a VB.NET.</p>
+          <div class="timeline-tags">
+            <span class="tag">#VB.NET</span><span class="tag">#Automatización</span>
+          </div>
+          <ul class="timeline-detail" hidden>
             <li>Automaticé la generación de reportes financieros, aumentando la productividad del departamento de contabilidad en un 25% mediante integración de datos sin fisuras.</li>
-            <li>Moderniceé código legacy de VB6 a VB.NET, mejorando la compatibilidad, mantenibilidad y alineación con los estándares de desarrollo modernos.</li>
+            <li>Modernicé código legacy de VB6 a VB.NET, mejorando la compatibilidad, mantenibilidad y alineación con los estándares de desarrollo modernos.</li>
           </ul>
         </article>
 
@@ -232,26 +315,55 @@
         <h2 class="section-title">Contacto</h2>
       </div>
       <p class="contact-sub" data-animate>Hablemos de tu próximo proyecto o oportunidad.</p>
+      <p class="eyebrow contact-meta" data-animate>Atlanta, GA</p>
       <div class="contact-links">
-        <a href="mailto:fatima.macias.us@gmail.com" class="contact-link" data-animate>
-          <span class="contact-label">Email</span>
-          <span>fatima.macias.us@gmail.com</span>
-        </a>
-        <a href="https://www.linkedin.com/in/fatima-macias/" target="_blank" rel="noopener noreferrer" class="contact-link" data-animate>
-          <span class="contact-label">LinkedIn</span>
-          <span>linkedin.com/in/fatima-macias</span>
-        </a>
+        <div class="contact-item">
+          <a href="mailto:fatima.macias.us@gmail.com" class="contact-link" data-animate>
+            <span class="contact-icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-10 7L2 7"></path></svg></span>
+            <span class="contact-label">Email</span>
+            <span>fatima.macias.us@gmail.com</span>
+          </a>
+          <button class="contact-copy" type="button" data-copy="fatima.macias.us@gmail.com" aria-label="Copiar correo">⧉</button>
+        </div>
+        <div class="contact-item">
+          <a href="https://www.linkedin.com/in/fatima-macias/" target="_blank" rel="noopener noreferrer" class="contact-link" data-animate>
+            <span class="contact-icon">in</span>
+            <span class="contact-label">LinkedIn</span>
+            <span>linkedin.com/in/fatima-macias</span>
+          </a>
+        </div>
       </div>
-      <p class="contact-location">Atlanta, GA 30318</p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    <p>&copy; <span id="year"></span> Fatima Macias. Todos los derechos reservados.</p>
+    <p>&copy; <span id="year"></span> Fátima Macías. Todos los derechos reservados.</p>
   </div>
 </footer>
+
+<div class="status-bar">
+  <div class="status-bar-group">
+    <span class="status-item">⎇ main</span>
+    <span class="status-item hide-sm">✓ 0 problemas</span>
+    <span class="status-item hide-sm">UTF-8</span>
+  </div>
+  <div class="status-bar-group">
+    <span class="status-item hide-sm">Ln 1, Col 1</span>
+    <span class="status-item hide-sm">TypeScript</span>
+    <span class="status-item" id="statusTheme">Dark+ (default)</span>
+  </div>
+</div>
+
+<div class="modal-overlay" id="expModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="expModalTitle">
+    <button class="modal-close" type="button" aria-label="Cerrar">✕</button>
+    <h3 class="modal-title" id="expModalTitle"></h3>
+    <p class="modal-meta"></p>
+    <ul class="modal-list"></ul>
+  </div>
+</div>
 
 <script src="../assets/script.js"></script>
 </body>
