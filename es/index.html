@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatima Macias — Senior Full Stack Developer</title>
+<meta name="description" content="Fatima Macias — Senior Full Stack Developer con 10+ años de experiencia en .NET, Azure y Generative AI.">
+<link rel="icon" href="data:,">
+<script>
+  (function () {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo">FM</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#education">Educación</a>
+      <a href="#contact">Contacto</a>
+      <span class="lang-switch">
+        <a href="/">EN</a>
+        <a href="/es/" class="active">ES</a>
+      </span>
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema claro/oscuro">
+        <span class="icon-sun">☀</span>
+        <span class="icon-moon">☾</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="hero" class="hero">
+    <div class="hero-blob one"></div>
+    <div class="hero-blob two"></div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Senior Full Stack Developer</p>
+        <h1>Fatima <span class="gradient-text">Macias</span></h1>
+        <p class="hero-tagline">
+          10+ años arquitectando software de nivel empresarial en finanzas, logística y SaaS.
+          Experta en el stack de Microsoft (.NET Core, C#, Azure), hoy expandiendo hacia
+          <strong>Generative AI y AI Agents</strong> para construir soluciones inteligentes
+          de próxima generación.
+        </p>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-number">55%</span><span class="stat-label">más rápido en APIs</span></div>
+          <div class="stat"><span class="stat-number">98%</span><span class="stat-label">cobertura de pruebas</span></div>
+          <div class="stat"><span class="stat-number">10+</span><span class="stat-label">años de experiencia</span></div>
+        </div>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Contáctame</a>
+          <a href="#experience" class="btn btn-secondary">Ver experiencia</a>
+        </div>
+      </div>
+      <div class="hero-visual" data-animate>
+        <div class="code-panel">
+          <div class="code-panel-head">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span class="code-panel-title">perfil.json</span>
+          </div>
+          <div class="code-panel-body"><span class="c-punc">{</span>
+  <span class="c-key">"nombre"</span><span class="c-punc">:</span> <span class="c-str">"Fatima Macias"</span><span class="c-punc">,</span>
+  <span class="c-key">"rol"</span><span class="c-punc">:</span> <span class="c-str">"Senior Full Stack Developer"</span><span class="c-punc">,</span>
+  <span class="c-key">"stack"</span><span class="c-punc">:</span> <span class="c-punc">[</span><span class="c-str">".NET"</span><span class="c-punc">,</span> <span class="c-str">"C#"</span><span class="c-punc">,</span> <span class="c-str">"Azure"</span><span class="c-punc">,</span> <span class="c-str">"AI"</span><span class="c-punc">]</span><span class="c-punc">,</span>
+  <span class="c-key">"experiencia"</span><span class="c-punc">:</span> <span class="c-str">"10+ años"</span><span class="c-punc">,</span>
+  <span class="c-key">"enfoqueActual"</span><span class="c-punc">:</span> <span class="c-str">"Generative AI & Agents"</span><span class="c-punc">,</span>
+  <span class="c-key">"estado"</span><span class="c-punc">:</span> <span class="c-str">"abierta a oportunidades"</span>
+<span class="c-punc">}</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head" data-animate>
+        <span class="section-kicker">Quién soy</span>
+        <h2 class="section-title">Sobre mí</h2>
+      </div>
+      <p class="about-text" data-animate>
+        Senior Full Stack Developer con más de 10 años de experiencia arquitectando software
+        de nivel empresarial en finanzas, logística y SaaS. Profunda experiencia en el stack
+        de Microsoft (.NET Core, C#, Azure) con resultados medibles: 55% de mejora en tiempos
+        de respuesta de API, 98% de cobertura de pruebas, y automatización completa de flujos
+        de pago. Actualmente expandiendo mis habilidades hacia Generative AI y AI Agents para
+        construir soluciones inteligentes de próxima generación.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-head" data-animate>
+        <span class="section-kicker">Stack</span>
+        <h2 class="section-title">Habilidades técnicas</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" data-animate><div class="skill-icon">&lt;/&gt;</div><h3>Lenguajes</h3><p>C#, Python, JavaScript, SQL, Visual Basic</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">☁</div><h3>Back-End &amp; Cloud</h3><p>.NET Core 8, ASP.NET MVC, FastAPI, REST APIs, Microservices, Azure (DevOps, Functions, AZ-104), Docker, CI/CD</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">DB</div><h3>Bases de datos</h3><p>SQL Server, PostgreSQL, Entity Framework, LINQ, Dapper, Query Optimization</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">#</div><h3>Frameworks</h3><p>ABP Framework, ASP.NET MVC, FastAPI</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">UI</div><h3>Front-End</h3><p>React, HTML5, CSS3</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">AI</div><h3>AI &amp; ML</h3><p>Generative AI, AI Agents, Prompt Engineering, Gemini API, GitHub Copilot, Claude</p></div>
+        <div class="skill-card" data-animate><div class="skill-icon">✓</div><h3>Prácticas</h3><p>Agile/Scrum, TDD (xUnit), Clean Architecture, DDD, OOP, ETL</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-head" data-animate>
+        <span class="section-kicker">Trayectoria</span>
+        <h2 class="section-title">Experiencia profesional</h2>
+      </div>
+      <div class="timeline">
+
+        <article class="timeline-item" data-animate>
+          <div class="timeline-header">
+            <h3>Senior Software Developer</h3>
+            <span class="timeline-meta">Bombyll — USA · Mar 2024 – Presente</span>
+          </div>
+          <ul>
+            <li>Arquitecté un sistema de decisión AI configurable con soporte para múltiples proveedores de LLM (Claude, OpenAI, Gemini) con gestión de costos integrada, habilitando cambio dinámico de proveedor según los requisitos de la tarea.</li>
+            <li>Diseñé e implementé pipelines de AI agnósticos al proveedor, abstrayendo la lógica específica del modelo para garantizar flexibilidad y eficiencia de costos en flujos de trabajo de AI en producción.</li>
+            <li>Adopté desarrollo guiado por especificaciones, escribiendo specs detalladas de implementación y usando TDD para traducir planes asistidos por AI en código confiable y bien probado.</li>
+            <li>Aceleré la velocidad de desarrollo integrando asistentes de código AI (Claude, GitHub Copilot, Sonar) en el flujo de trabajo diario, mejorando la calidad del código y reduciendo el tiempo de implementación.</li>
+            <li>Construí una plataforma de estudio potenciada por AI usando Python, FastAPI y Gemini API para generar automáticamente contenido educativo estructurado a partir de video.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item" data-animate>
+          <div class="timeline-header">
+            <h3>Senior Full Stack Developer</h3>
+            <span class="timeline-meta">Oncedev / Willdom · Sep 2021 – Dic 2023</span>
+          </div>
+          <ul>
+            <li>Arquitecté plataformas de autoservicio para comparación de seguros (auto, salud, vida) usando Domain-Driven Design (DDD) sobre ABP Framework, modelando dominios complejos de brokers y pólizas en bounded contexts limpios con capas de seguridad y auditoría integradas.</li>
+            <li>Aproveché los módulos integrados de ABP Framework para autorización, multi-tenancy y logging, reduciendo preocupaciones transversales y acelerando la entrega de funcionalidades core del negocio.</li>
+            <li>Integré 3 pasarelas de pago en plataformas de seguros, expandiendo las opciones de pago del cliente y aumentando la flexibilidad de procesamiento en un 40%.</li>
+            <li>Logré una reducción del 55% en tiempos de respuesta de API mediante optimización de consultas SQL, indexación estratégica y caché distribuido.</li>
+            <li>Alcancé 98% de cobertura de pruebas con xUnit, reduciendo bugs post-despliegue en un 90%, e implementé pipelines CI/CD en Azure DevOps para una entrega de software confiable.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item" data-animate>
+          <div class="timeline-header">
+            <h3>Senior Software Engineer</h3>
+            <span class="timeline-meta">Kyklos · Jul 2017 – Nov 2023</span>
+          </div>
+          <ul>
+            <li>Diseñé un sistema centralizado de gestión de pagos integrando 7 instituciones financieras, automatizando el 100% de los pagos manuales a proveedores e incrementando la productividad del departamento en un 25%.</li>
+            <li>Construí un pipeline ETL integrado con el ERP JD Edwards, automatizando la extracción de datos financieros de extremo a extremo y reduciendo la carga de trabajo del equipo de finanzas en un 25%.</li>
+            <li>Moderniceé y modularicé bases de código legacy, reduciendo costos operativos en un 25% y mejorando la escalabilidad del sistema.</li>
+            <li>Diseñé soluciones en SQL Server incluyendo diseño de esquemas, stored procedures y optimización de consultas para cargas de datos de alto volumen.</li>
+            <li>Desarrollé un módulo de facturación electrónica usando ASP.NET MVC y SQL Server, garantizando pleno cumplimiento regulatorio.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item" data-animate>
+          <div class="timeline-header">
+            <h3>Senior Software Developer</h3>
+            <span class="timeline-meta">Wo Logistic · Feb 2015 – Jun 2017</span>
+          </div>
+          <ul>
+            <li>Diseñé un sistema de operaciones portuarias integrando básculas de camiones/hardware de pesaje con software de facturación, calculando automáticamente tarifas de almacenamiento, inspección y puerto para carga a granel y por peso.</li>
+            <li>Desarrollé sistemas de facturación electrónica y gestión de turnos, mejorando la trazabilidad operativa y el cumplimiento en los flujos de trabajo portuarios.</li>
+            <li>Colaboré con equipos de operaciones portuarias y analistas para traducir requisitos de dominio complejos en soluciones de software listas para producción.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item" data-animate>
+          <div class="timeline-header">
+            <h3>Software Engineer</h3>
+            <span class="timeline-meta">Escopusa · Nov 2011 – Ene 2015</span>
+          </div>
+          <ul>
+            <li>Automaticé la generación de reportes financieros, aumentando la productividad del departamento de contabilidad en un 25% mediante integración de datos sin fisuras.</li>
+            <li>Moderniceé código legacy de VB6 a VB.NET, mejorando la compatibilidad, mantenibilidad y alineación con los estándares de desarrollo modernos.</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-head" data-animate>
+        <span class="section-kicker">Formación</span>
+        <h2 class="section-title">Educación y certificaciones</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card" data-animate>
+          <h3>Educación</h3>
+          <p><strong>B.S. Computer Science</strong><br>Universidad de Guayaquil, Ecuador — Oct 2015</p>
+        </div>
+        <div class="edu-card" data-animate>
+          <h3>Certificaciones</h3>
+          <ul>
+            <li>Claude Code in Action — Anthropic (2026)</li>
+            <li>Microsoft Azure Administrator Associate AZ-104 — Microsoft (2023)</li>
+            <li>Prompt Engineering Certificate — LinkedIn Learning</li>
+            <li>Machine Learning &amp; Generative AI — Coursera &amp; Independent Study</li>
+            <li>Software Development Program — Code The Dream</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact-inner">
+      <div class="section-head" data-animate>
+        <span class="section-kicker">Hablemos</span>
+        <h2 class="section-title">Contacto</h2>
+      </div>
+      <p class="contact-sub" data-animate>Hablemos de tu próximo proyecto o oportunidad.</p>
+      <div class="contact-links">
+        <a href="mailto:fatima.macias.us@gmail.com" class="contact-link" data-animate>
+          <span class="contact-label">Email</span>
+          <span>fatima.macias.us@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/fatima-macias/" target="_blank" rel="noopener noreferrer" class="contact-link" data-animate>
+          <span class="contact-label">LinkedIn</span>
+          <span>linkedin.com/in/fatima-macias</span>
+        </a>
+      </div>
+      <p class="contact-location">Atlanta, GA 30318</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Fatima Macias. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+</body>
+</html>
