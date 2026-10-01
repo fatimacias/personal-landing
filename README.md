@@ -1,81 +1,81 @@
 # Fatima Macias — Landing Page
 
-Landing page profesional estático (HTML/CSS/JS plano, sin frameworks), listo para
-desplegarse gratis en **Cloudflare Pages**.
+Static professional landing page (plain HTML/CSS/JS, no frameworks), ready to
+deploy for free on **Cloudflare Pages**.
 
-## Estructura
+## Structure
 
 ```
-index.html          # Página principal en INGLÉS (fatimacias.com)
-es/index.html        # Versión en ESPAÑOL (fatimacias.com/es/)
-assets/styles.css    # Estilos compartidos (tema VS Code Dark+/Light+, liquid glass)
-assets/script.js     # Interactividad compartida (menú móvil, animaciones, modal, tema)
-assets/fonts/        # Fuentes self-hosted (Inter + JetBrains Mono, woff2) — sin CDN externo
-assets/favicon.svg   # Favicon (logo "FM")
-assets/og-image.png  # Imagen de vista previa para redes sociales (1200×630)
-robots.txt           # Directivas para crawlers + referencia al sitemap
-sitemap.xml          # Sitemap con anotaciones hreflang (en/es)
+index.html          # Main page in ENGLISH (fatimacias.com)
+es/index.html        # SPANISH version (fatimacias.com/es/)
+assets/styles.css    # Shared styles (VS Code Dark+/Light+ theme, liquid glass)
+assets/script.js     # Shared interactivity (mobile menu, animations, modal, theme)
+assets/fonts/        # Self-hosted fonts (Inter + JetBrains Mono, woff2) — no external CDN
+assets/favicon.svg   # Favicon ("FM" logo)
+assets/og-image.png  # Social media preview image (1200×630)
+robots.txt           # Crawler directives + sitemap reference
+sitemap.xml          # Sitemap with hreflang annotations (en/es)
 ```
 
-El idioma principal del dominio es **inglés** (`/`). La versión en español vive en
-`/es/`. Cloudflare Pages sirve ambas rutas automáticamente sin configuración extra,
-gracias a los archivos `index.html` dentro de cada carpeta.
+The domain's primary language is **English** (`/`). The Spanish version lives at
+`/es/`. Cloudflare Pages serves both routes automatically with no extra
+configuration, thanks to the `index.html` files inside each folder.
 
-Todo el sitio (CSS, JS, fuentes, favicon) es 100% self-hosted — ninguna dependencia
-de CDNs externos (ej. Google Fonts), para que todo se sirva desde el propio CDN de
-Cloudflare.
+The entire site (CSS, JS, fonts, favicon) is 100% self-hosted — no dependency on
+external CDNs (e.g. Google Fonts), so everything is served from Cloudflare's own
+CDN.
 
 ## SEO
 
-- **Meta tags**: `description`, `robots`, `canonical`, Open Graph y Twitter Card en
-  ambas páginas (`index.html` y `es/index.html`).
-- **hreflang**: cada página anuncia sus alternativas de idioma (`en`, `es`,
-  `x-default`) para que los buscadores indexen correctamente ambas versiones del
-  mismo contenido.
-- **JSON-LD** (`schema.org/Person`): datos estructurados con nombre, rol, URL,
-  LinkedIn y ubicación.
-- **`robots.txt`** y **`sitemap.xml`**: permiten rastreo completo e incluyen las
-  anotaciones hreflang por URL.
+- **Meta tags**: `description`, `robots`, `canonical`, Open Graph, and Twitter
+  Card on both pages (`index.html` and `es/index.html`).
+- **hreflang**: each page announces its language alternates (`en`, `es`,
+  `x-default`) so search engines correctly index both versions of the same
+  content.
+- **JSON-LD** (`schema.org/Person`): structured data with name, role, URL,
+  LinkedIn, and location.
+- **`robots.txt`** and **`sitemap.xml`**: allow full crawling and include
+  per-URL hreflang annotations.
 
-> ⚠️ Todas las URLs en las meta tags, el sitemap y el JSON-LD asumen el dominio
-> `https://fatimacias.com`. Si el dominio final es otro, hay que actualizarlo en:
-> `index.html`, `es/index.html`, `robots.txt` y `sitemap.xml`.
+> ⚠️ All URLs in the meta tags, sitemap, and JSON-LD assume the domain
+> `https://fatimacias.com`. If the final domain is different, update it in:
+> `index.html`, `es/index.html`, `robots.txt`, and `sitemap.xml`.
 
-Tras desplegar, se recomienda:
-1. Verificar la propiedad del dominio en [Google Search Console](https://search.google.com/search-console)
-   y enviar `https://fatimacias.com/sitemap.xml`.
-2. Probar la vista previa social con la [Meta Sharing Debugger](https://developers.facebook.com/tools/debug/)
-   o la [Card Validator de X/Twitter](https://cards-dev.twitter.com/validator).
+After deploying, it's recommended to:
+1. Verify domain ownership in [Google Search Console](https://search.google.com/search-console)
+   and submit `https://fatimacias.com/sitemap.xml`.
+2. Test the social preview with the [Meta Sharing Debugger](https://developers.facebook.com/tools/debug/)
+   or the [X/Twitter Card Validator](https://cards-dev.twitter.com/validator).
 
-## Ver el sitio localmente
+## Viewing the site locally
 
-No requiere build ni dependencias. Basta con abrir `index.html` en el navegador,
-o servirlo con cualquier servidor estático, por ejemplo:
+No build step or dependencies required. Just open `index.html` in a browser,
+or serve it with any static server, for example:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Luego visita `http://localhost:8080`.
+Then visit `http://localhost:8080`.
 
-## Desplegar en Cloudflare Pages (gratis)
+## Deploying to Cloudflare Pages (free)
 
-1. Entra a tu [dashboard de Cloudflare](https://dash.cloudflare.com/) → **Workers & Pages**.
-2. Crea un nuevo proyecto → **Connect to Git** → selecciona este repositorio
+1. Go to your [Cloudflare dashboard](https://dash.cloudflare.com/) → **Workers & Pages**.
+2. Create a new project → **Connect to Git** → select this repository
    (`fatimacias/fatimacias`).
-3. Configuración de build:
+3. Build configuration:
    - **Framework preset**: None
-   - **Build command**: (vacío)
+   - **Build command**: (empty)
    - **Build output directory**: `/`
-4. Guarda y despliega. Cloudflare te dará una URL gratuita tipo
+4. Save and deploy. Cloudflare will give you a free URL like
    `https://fatimacias.pages.dev`.
-5. (Opcional, cuando compres un dominio) conecta un dominio personalizado desde la
-   pestaña **Custom domains** del proyecto en Cloudflare Pages.
+5. (Optional, once you have a domain) connect a custom domain from the
+   **Custom domains** tab of the Cloudflare Pages project.
 
-## Notas
+## Notes
 
-- Sitio 100% estático, sin backend ni formularios — el contacto se hace mediante
-  enlaces directos (email, teléfono, LinkedIn).
-- Cualquier cambio en `index.html`, `styles.css` o `script.js` se refleja
-  automáticamente en el siguiente despliegue tras hacer push a la rama conectada.
+- 100% static site, no backend or forms — contact happens via direct links
+  (email, phone, LinkedIn).
+- Any change to `index.html`, `styles.css`, or `script.js` is automatically
+  reflected in the next deployment after pushing to the connected branch.
 
