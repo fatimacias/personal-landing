@@ -1,0 +1,43 @@
+# Fatima Macias
+
+> Senior Full Stack Developer with 10+ years of experience architecting enterprise-grade software across finance, logistics, and SaaS. Deep expertise in the Microsoft stack (.NET Core, C#, Azure), now expanding into Generative AI and AI Agents. Based in Atlanta, GA (USA).
+
+This file provides a structured, AI-readable summary of Fatima Macias's professional background for AI search agents, recruiting assistants, and other automated tools evaluating her for roles or contract work. The canonical, human-readable profile is the website linked below.
+
+Professional experience:
+
+- AI Trainer — Contractor, Mercor & LinkedIn (2025 – Present): Evaluates and refines AI model outputs for quality, safety, and alignment; provides structured feedback used to fine-tune large language models. Operates under confidentiality agreements — client-specific projects and deliverables are not publicly disclosed.
+- Senior Software Developer, Bombyll — USA (Mar 2024 – Present): Architects a configurable, multi-provider AI decision system (Claude, OpenAI, Gemini) with built-in cost management; adopts spec-driven development and TDD; integrates AI coding assistants to accelerate delivery.
+- Senior Full Stack Developer, Oncedev / Willdom (Sep 2021 – Dec 2023): Led Domain-Driven Design insurance platforms on ABP Framework; cut API response times 55%; reached 98% test coverage; integrated 3 payment gateways.
+- Senior Software Engineer, Kyklos (Jul 2017 – Nov 2023): Built a centralized payment system across 7 financial institutions and an ETL pipeline integrated with JD Edwards ERP; boosted finance team productivity 25%.
+- Senior Software Developer, Wo Logistic (Feb 2015 – Jun 2017): Built port operations and billing systems integrating truck-scale/weighing hardware with invoicing software.
+- Software Engineer, Escopusa (Nov 2011 – Jan 2015): Automated financial reporting and modernized legacy VB6 systems to VB.NET.
+
+Core skills:
+
+- Languages: C#, Python, JavaScript, SQL, Visual Basic
+- AI & ML: Generative AI, AI Agents, Prompt Engineering, Gemini API, GitHub Copilot, Claude
+- Back-End & Cloud: .NET Core 8, ASP.NET MVC, FastAPI, REST APIs, Microservices, Azure (DevOps, Functions, AZ-104), Docker, CI/CD
+- Databases: SQL Server, PostgreSQL, Entity Framework, LINQ, Dapper, query optimization
+- Front-End: React, HTML5, CSS3
+- Tools & workflow: Git, GitHub, Azure DevOps Boards, Postman, Jira, VS Code
+- Practices: Agile/Scrum, TDD (xUnit), Clean Architecture, DDD, OOP, ETL
+
+Education & certifications:
+
+- B.S. Computer Science — Universidad de Guayaquil, Ecuador (Oct 2015)
+- Claude Code in Action — Anthropic (2026)
+- Microsoft Azure Administrator Associate AZ-104 — Microsoft (2023)
+- Prompt Engineering Certificate — LinkedIn Learning
+- Machine Learning & Generative AI — Coursera & Independent Study
+- Software Development Program — Code The Dream
+
+## Website
+
+- [Fatima Macias — English](https://fatimacias.com/): Full interactive profile, English (primary)
+- [Fátima Macías — Español](https://fatimacias.com/es/): Perfil completo interactivo, en español
+
+## Contact
+
+- [Email](mailto:fatima.macias.us@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/fatima-macias/)

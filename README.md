@@ -16,6 +16,7 @@ public/                     # Everything in here is served as the site root
   assets/og-image.png        # Social media preview image (1200×630)
   robots.txt                 # Crawler directives + sitemap reference
   sitemap.xml                 # Sitemap with hreflang annotations (en/es)
+  llms.txt                    # AI-agent-readable CV summary (llmstxt.org format)
 wrangler.jsonc              # Cloudflare Workers config (points to public/ as assets.directory)
 package.json                 # Dev dependency on Wrangler, used by Workers Builds CI
 ```
@@ -40,6 +41,11 @@ network.
   LinkedIn, and location.
 - **`robots.txt`** and **`sitemap.xml`**: allow full crawling and include
   per-URL hreflang annotations.
+- **`llms.txt`**: a plain-text/markdown CV summary following the
+  [llms.txt](https://llmstxt.org/) convention, so AI search agents and
+  recruiting assistants (e.g. AI-powered job search tools) can read a clean,
+  structured summary of experience, skills, and contact info without parsing
+  HTML. Served at `https://fatimacias.com/llms.txt`.
 
 > ⚠️ All URLs in the meta tags, sitemap, and JSON-LD assume the domain
 > `https://fatimacias.com`. If the final domain is different, update it in:
